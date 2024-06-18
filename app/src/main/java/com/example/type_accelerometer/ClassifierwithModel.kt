@@ -320,7 +320,6 @@ open class ClassifierwithModel(private val context: Context,
 
     }
 
-
     fun findMaxIndex(array: FloatArray): Int {
         var maxIndex = -1
         var maxValue = Float.NEGATIVE_INFINITY
