@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TYPE_ACC</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="outputStart">IMU Logger\nPress Start</string>
+    <string name="outputMeasuring">IMU Logger\nMeasuring...</string>
+    <string name="PermissionDeniedPermanently">Permissions denied. Grant permissions in watch settings and start application again</string>
+    <string name="PermissionDeniedRationale">Health Platform version is outdated or not installed</string>
+    <string name="NoHealthPlatformError">Health Platform version is outdated or not installed</string>
+    <string name="ConnectedToHS">Connected to Health Services</string>
+    <string name="ConnectionError">Could not connect to Health Services. Check error log</string>
+    <string name="NoPermission">Permissions Check Failed</string>
+    <string name="SDKPolicyError">SDK Ploicy denied</string>
+    <string name="yourResult">yourResult</string>
+    <string name="Resulting">Resulting</string>
+    <string name="nothing">NOTHING</string>
+    <string name="result0">WALK</string>
+    <string name="result1">RUN</string>
+    <string name="result2">DANGEROUS</string>
+    <string name="result3">NORMAL</string>
+
+
+</resources>

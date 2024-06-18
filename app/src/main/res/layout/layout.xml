@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="193dp"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true">
+
+
+        <Button
+            android:id="@+id/butStart"
+            android:layout_width="136dp"
+            android:layout_height="50dp"
+            android:text="@string/start"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtOutput"
+            app:layout_constraintVertical_bias="0.632"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/txtOutput"
+            android:layout_width="126dp"
+            android:layout_height="49dp"
+            android:text="@string/outputStart"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.244"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/resultOutput"
+            android:layout_width="179dp"
+            android:layout_height="30dp"
+            android:text="@string/yourResult"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.581"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
